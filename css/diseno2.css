@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+ 
+body { background-color: #e2e9d9;
+       font-family: loto, sans-serif;
+}
+
+ nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  background-color: #c1cabe;
+  box-shadow:0 3px 5px #00000025 ;
+  height: 45px;
+ }
+
+nav h1 {
+  color: #a86731;
+  font-size: 50px;
+ /** margin-left: -200px; */
+}
+
+nav a {
+  color: #a86731;
+}
+nav #foto {
+   width: 170px; 
+  height: 100px; 
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  font-weight: 700;
+}
+
+.heroe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.heroe img {
+  width: 400px;
+  height: 425px;
+}
+
+.bio {
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px 2px #00000025;
+}
+
+.bio h1 {
+  margin-bottom: 10px;
+}
+
+.bio p {
+  line-height: 27px;
+  padding: 10px 0;
+}
+
+.contenedor-habilidades {
+  text-align: center;
+}
+
+.encabezado-habilidades{
+  border: 3px black;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-align: center
+}
+
+.contenedor-habilidades .boton {
+  padding: 10px;
+  background: #b17b50;
+  width: 230px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 1px #000;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.contenedor-habilidades .boton:hover {
+  opacity: .8;
+}  
+
+.contacto {
+  margin-top: 30px;
+}
+
+.contacto h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.formulario-contacto-contenedor {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px #a17a69;
+ }
+
+ .formulario-contacto-contenedor label {
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.formulario-contacto-contenedor textarea {
+  min-height: 100px;
+  font-size: 14px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px;
+  font-size: 14px;
+  outline: none;
+}
+
+.formulario-contacto-contenedor input {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px;
+  font-size: 14px;
+  outline: none;
+}
+
+.formulario-contacto-contenedor .boton {
+  cursor: pointer;
+  background: #b17b50;
+  }
+  .formulario-contacto-contenedor .boton:hover {
+  opacity: .8; 
+  }
+
+
+.desplazarse-hacia-arriba {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.para-arriba {
+  width: 45px;
+  height: 45px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 1100px) {
+  nav ul {
+    display: none;
+  }
+
+ 
+}
+@media screen and (max-width: 776px) {
+  nav {
+    padding: 1.5rem 1rem;
+  }
+  nav #foto {
+   /** display: none; */
+   width: 105px; 
+   height: 70px; 
+  }
+  nav h1 {
+    font-size: 30px;
+  }
+  
+   nav ul li {
+    margin: 8px;
+  }
+
+  .heroe {
+    margin-top: -2rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .heroe img {
+        height: 20.5rem;
+        width: 20rem;
+        margin-top: 3rem;
+  }
+
+  .bio {
+    margin-top: 1rem; 
+    width: 20.5rem;
+  }
+}
+
+@media screen and (max-width: 420px){
+  nav #foto {
+    display: none; 
+  }
+}

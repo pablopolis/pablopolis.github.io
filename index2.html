@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/diseno2.css" />
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2014/04/03/10/32/hat-310784_960_720.png">
+    <title>C.V. Henry Jones</title>
+</head>
+<body>
+<!-- -->
+    <nav>
+        
+        <img id="foto"  src="https://cdn.pixabay.com/photo/2014/04/03/10/32/hat-310784_960_720.png" alt="foto de mi persona">   
+       
+        <h1 id="nombre">Dr. Henry Jones, Jr.</h1>
+           
+          <ul class="menu">
+                             <li> <a href="#sobremi" class="barra-de-menu">Sobre mi</a></li>
+                             <li> <a href="#habilidades" class="barra-de-menu">Habilidades</a></li>
+                             <li><a href="#contacto" class="barra-de-menu">Contacto</a></li>
+           </ul>
+           
+    </nav>
+    <section class="heroe" id="sobremi">
+        <img
+          src="https://pbs.twimg.com/profile_images/802944094397927430/0oNwh1jf_400x400.jpg"
+          alt="indiana"
+          loading="lazy"
+          class="heroe-img"
+        />
+        <div class="bio" >
+          <h2 class="bio-titulo">Sobre Mí</h2>
+          <p class="bio-texto">
+            Profesor y Vice-Rector en la Universidad Barnett.<br>
+            Trabajé para el Gobierno estadounidense en expediciones sensibles para la defensa de la humanidad y sus reliquias historicas. <br>
+            Colaboré en la 2da guerra mundial y eso me llevó a conseguir el cargo de coronel. <br>
+            Hoy me encuentro buscando propuestas independientes. Si bien mis honorarios son caros, si el caso llama mi atención, el dinero puede no ser un obstaculo
+          </p>
+        </div>
+        
+  </section>
+  <section class="habilidades" id="habilidades">
+    <h2 class="encabezado-habilidades">Mis mejores habilidades</h2>
+
+    <div class="contenedor-habilidades">
+      
+      <!-- <p><a href="javascript:mostrar();">manejo de Grupos estudiantiles</a></p>
+        <iframe id="flotante"
+        
+        width="450" 
+        height="215" 
+        src="https://www.youtube-nocookie.com/embed/09dmQjTqFtI" 
+        title="YouTube video player" frameborder="0" 
+        allow="autoplay; encrypted-media" >
+        </iframe>
+               
+        <p><a href="javascript:mostrar2();">manejo de problemas</a></p>
+        
+               <iframe id="video2"
+        width="450" 
+        height="215" 
+        src="https://www.youtube.com/embed/7YyBtMxZgQs" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media">
+        </iframe> -->
+       
+        <div class="boton" onclick="mostrarYocultar()">
+          Manejo de Grupos Estudiantiles
+          </div>
+          <div>
+          <iframe id="video"        
+        width="450" 
+        height="0" 
+        src="https://www.youtube-nocookie.com/embed/09dmQjTqFtI" 
+        title="YouTube video player" frameborder="0" 
+        allow="autoplay; encrypted-media" >
+            </iframe>
+          </div>
+          <div class="boton" onclick="mostrarYocultar1()">
+            Resolución de Conflictos
+            </div>
+            <div>
+              <iframe id="video1"
+              width="450" 
+              height="0" 
+              src="https://www.youtube.com/embed/7YyBtMxZgQs" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="autoplay; encrypted-media">
+              </iframe>
+            </div>
+              <div class="boton" onclick="mostrarYocultar2()">
+                Trabajo Bajo Presión
+                </div>
+                <div>
+                <iframe id="video2"        
+              width="450" 
+              height="0" 
+              src="https://www.youtube.com/embed/rUHZZwuybiY" 
+              title="YouTube video player" frameborder="0" 
+              allow="autoplay; encrypted-media" >
+                  </iframe>
+                </div>
+                
+            </div>
+        
+    </div>
+ 
+      
+
+  </section>
+
+  <section class="contacto" id="contacto">
+    <h2>Contactame</h2>
+    <div class="formulario-contacto-contenedor">
+        <form action="">
+            <label for="name">Nombre</label>
+            <br>
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Nombre"
+              required
+            />
+            <br>
+            <label for="email">Correo Electrónico</label>
+            <br>
+            <input
+              type="email"
+              name="email"
+              placeholder="email"
+              required
+            />
+            <br>
+            <label for="mensaje">Mensaje</label>
+            <br>
+            <textarea
+              id="mensaje"
+              cols="60"
+              rows="10"
+              placeholder="Escribe tu mensaje"
+              name="mensaje"
+              required
+            ></textarea>
+          <input class="boton" type="submit"/>
+        </form>
+    </div>
+  </section class="utilidades">
+  <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+      ><img
+        src="https://freesvg.org/img/north-arrow-2.png"
+        class="para-arriba"
+        alt="desplazarse-hacia-arriba"
+    /></i>
+</body>
+<script src="javascript/script2.js"></script>
+</html>
