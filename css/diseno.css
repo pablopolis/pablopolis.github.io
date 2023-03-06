@@ -3,7 +3,7 @@
 body { background-color: #e2e9d9;
        font-family: loto, sans-serif;
 }
-
+/** navegador */
  nav {
   position: sticky;
   top: 0;
@@ -41,6 +41,7 @@ nav ul li {
   font-weight: 700;
 }
 
+/** Heroe */
 .heroe {
   display: flex;
   align-items: center;
@@ -71,6 +72,7 @@ nav ul li {
   padding: 10px 0;
 }
 
+/** Habilidades */
 .contenedor-habilidades {
   text-align: center;
 }
@@ -99,6 +101,7 @@ nav ul li {
   opacity: .8;
 }  
 
+/** Contacto */
 .contacto {
   margin-top: 30px;
 }
@@ -153,6 +156,7 @@ nav ul li {
   opacity: .8; 
   }
 
+/** Utilidades */
 
 .desplazarse-hacia-arriba {
   position: fixed;
@@ -166,14 +170,7 @@ nav ul li {
   height: 45px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
+/** elementos responsivos */
 
 @media screen and (max-width: 1100px) {
   nav ul {
